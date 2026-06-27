@@ -1,0 +1,33 @@
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Build folders
+build/
+build-*/
+
+# Qt Creator settings
+.qtcreator/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+
+# Debug
+*.pdb
+*.ilk
+
+# Qt moc/uic/rcc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
