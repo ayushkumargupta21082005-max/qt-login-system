@@ -1,80 +1,99 @@
-# 🔐 Qt Login System
+# 🔐 Qt C++ Login System
 
-A modern desktop login application built using **PyQt**.
+A desktop-based User Login System developed using **C++** and the **Qt Framework**.
 
-The application provides a clean user login interface where users can enter their credentials and navigate to another window after successful login.
+This project demonstrates a clean login interface with user authentication fields and navigation to a second window after successful login.
 
 ---
 
 ## ✨ Features
 
-- User Login Form
+- Modern Login UI
 - Username Input
 - Password Input
 - Password Masking
 - Login Button
-- Opens New Window After Login
-- Modern GUI Design
-- Beginner Friendly Project
+- Opens a New Window
+- Built with Qt Widgets
+- Event Driven Programming
 
 ---
 
-## 🛠 Technologies Used
+## 🛠 Tech Stack
 
-- Python
-- PyQt5 / PyQt6
-- Qt Designer
-- Object-Oriented Programming (OOP)
-
----
-
-## 📷 Screenshot
-
-output_ex.png
+- C++
+- Qt Framework
+- Qt Widgets
+- Qt Creator
 
 ---
 
-## 🚀 Installation
+## 📸 Preview
 
-Clone the repository
+![Login Window](images/output_ex.png)
 
-```bash
-git clone https://github.com/yourusername/qt-login-system.git
+---
+
+## 📂 Project Structure
+
 ```
-
-Go inside project
-
-```bash
-cd qt-login-system
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run
-
-```bash
-python main.py
+qt-cpp-login-system
+│
+├── loginwindow.cpp
+├── loginwindow.h
+├── loginwindow.ui
+├── mainwindow.cpp
+├── mainwindow.h
+├── mainwindow.ui
+├── main.cpp
+├── login_software.pro
+├── images/
+│   └── output_ex.png
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-## 🎯 Future Improvements
+## 🚀 How to Run
 
-- Database Integration
+1. Clone this repository
+
+```bash
+git clone https://github.com/yourusername/qt-cpp-login-system.git
+```
+
+2. Open `login_software.pro` in Qt Creator.
+
+3. Configure the Qt Kit.
+
+4. Build and Run the project.
+
+---
+
+## 📚 Concepts Used
+
+- Qt Widgets
+- Signals & Slots
+- Event Handling
+- Multi Window Navigation
+- Object-Oriented Programming
+- Desktop GUI Development
+
+---
+
+## 🔮 Future Improvements
+
+- SQLite Database
 - User Registration
 - Forgot Password
-- Email Verification
-- Password Encryption
-- Remember Me Feature
-- Dark Theme
-- SQLite/MySQL Support
+- Show / Hide Password
+- Input Validation
+- Remember Me
+- Dark Mode
 
 ---
 
-## 📜 License
+## 📄 License
 
 MIT License
